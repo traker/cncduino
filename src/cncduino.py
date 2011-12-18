@@ -6,6 +6,7 @@ Created on 1 juin 2011
 import sys
 import shell
 from Gcode import *
+
 # -*- coding: cp1252 -*-
 #verifie les arguments
 #    -f fichier.nc    - charge une fichier Gcode
