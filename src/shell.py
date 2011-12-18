@@ -16,10 +16,13 @@ def HELP(self):
 def QUIT(self):
     print "bye"
 
+def DEF(self):
+    print ""
 
 COMM ={
        "help"   :HELP,
        "quit"   :QUIT,
+       ""       :DEF,
 }
 
 
