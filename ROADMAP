@@ -1,0 +1,6 @@
+coté master  "Chumby hacker board" ecrit en python
+- Creation du protocole de communication vars l'arduino.
+		celui ci permettra d'envoyer un octet avec les bits qui permet de faire bouger les axes et de recevoir l'etat de la machine.
+		moteur axe xyz , sens
+		fin de course xyz , sens
+- Creation de fonction permetant de communiqué, d'envoyer les commandes , et recevoir les données d'etat machine
